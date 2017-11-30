@@ -1,27 +1,27 @@
-##KNoT Hardware PCBs
+# KNoT Hardware PCBs
 
 These are the open-source hardware PCBs of the KNoT Project.
 
-###Overview
+## Overview
 
 KNoT project includes three PCB types:
 
-####Starter Board
+### Starter Board
 
 This board offers support for the embedded software development and preliminary hardware evaluation. They're build by the integration of existing modules and are composed of microcontroller, radio and power supply circuit. This boards help popularization of the KNoT Platform because they are cheaper and easier to distribute to the community.
 
-####Development Board
+### Development Board
 
 This PCB is self contained and has two goals: (i) to serve as a development platform with embedded firmware for prototypes that can be validated on field and (ii) to serve as baseline for specific hardware development for final products, as schematics and layouts can be rapidly customized to attend to specific demands.
 
-####Reference Design
+### Reference Design
 
 The Reference Design is composed of hardware, firmware and (eventually) desktop/mobile software. They are designed to demonstrate the KNoT platform used in real solutions. A Reference Design can be based on a Starter or Development Board adapted to be used in a specific solution.
 
 
-###Available Boards
+## Available Boards
 
-####KNoT Gateway Starter Board
+### KNoT Gateway Starter Board
 
 KNoT Gateway Starter Board consists of a shield board for Raspberry Pi 2 and 3. This shield disposes of:
 
@@ -36,15 +36,15 @@ All modules are mapped into the Raspberry Pi pins so no extra jumpers are requir
 The connection between the shield modules and the Raspberry Pi pins are made by a male/female 2x20 header thats fit in the Raspberry's GPIO header and ease the access to the Raspberry's GPIO.
 
 
-####KNoT Thing Starter Board
+### KNoT Thing Starter Board
 
 KNoT Thing Starter Board is a device board based on Arduino and nRF24L01+ radio. This PCB integrates an [Arduino Pro Mini 5V 16MHz](https://www.arduino.cc/en/Main/arduinoBoardProMini), a nRF24L01+ 2.4GHz module, voltage regulator and headers for I/O. This kit serves as a support PCB for software development and preliminary hardware evaluation. The [Thing Starter Board](https://upverter.com/CESARKNoT/ea9bba79e71df466/KNoT-nRF24L01/) for KNoT platform was designed with Upverter.
 
-####KNoT Thing Development Board
+### KNoT Thing Development Board
 
 KNoT Thing Development Board consists of an Arduino based PCB with the ATMega328 microcontroler, nRF24L01+ circuit, headers for SPI and I²C communication, push button and status led.
 
-#####Characteristics
+#### Characteristics
 
  - Suports KNoT version 01.00
  - Compatible with Arduino IDE
@@ -60,12 +60,12 @@ Before using the PCB, it's important to burn the bootloader to the Atmega328 mic
 - Low: 0xFF
 
 
-###Development tools
+## Development tools
 
 The ECAD tool used is Altium Designer versions 14.2.3 and 14.2.4.
 
 
-###PCB Files
+## PCB Files
 
 Each PCB project includes:
  - Components Library
